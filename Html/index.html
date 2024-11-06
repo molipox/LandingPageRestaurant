@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cello Restaurant</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;700&family=Forum&
+display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var hiddenContent = document.getElementById('hidden-content').innerHTML;
+        hiddenContent = hiddenContent.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+        document.getElementById('copyright').innerHTML = hiddenContent;
+    });
+</script>
+
+</head>
+</head>
+<body>
+    <div class="container" id="up_back">
+        <main>
+            <header id="home">
+                
+                <div><img src="../img/20240602_143944.png" alt="logo"></div>
+                <div>
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about_us">about us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#location">location</a></li>
+                        
+                    </ul>
+                </div>
+                <div><button>VIEW OUR MENU</button></div>
+            </header>
+            <a href="#home" class="fixed_link"><i class='bx bx-chevron-up'  ></i></a>
+            <main class="main">
+                <h2 style="font-weight: 500 ; font-size: 0.8vw;">- CELLO -</h2>
+                <img src="../img/snsla.png" alt="snsla">
+                <h3>Where Culinary Traditions and 
+                    <br>Modern Flavors Unite</h3>
+                <p>Discover Joy, Savor Authentic Middle-Eastern Cuisine!</p>
+                <button>VIEW OUR MENU</button>
+            </main>
+        </main>
+    </div>
+
+    <div id="about_us" >
+        <div id="background_image">
+            <img src="../img/v884-bird-22_2_1 (1).jpg" alt="left">
+            <img src="../img/RIGHT v884-bird-22_2_1 (1).jpg" alt="right">
+        </div>
+        <div id="about_text">
+            <h4>- About us -</h4>
+            <img src="../img/snsla.png" alt="snsla">
+        </div>
+            <p class="about_main_text">
+                
+                
+                Located on the bustling<span class="p"> Sheikh Zayed Road</span>, Cello Restaurant offers an authentic Middle-Eastern dining experience in the heart of <span class="p">Dubai</span>. For over <span class="p">seven years</span>, we've delighted guests with our exceptional food, live music, and warm hospitality, earning glowing reviews across social media and travel platforms. Each visit to <span class="p">Cello</span> promises a unique experience, with varied seating setups and the soulful melodies of our live bands creating an atmosphere of relaxed joy.
+    </p>
+                    <button>VIEW OUR MENU</button>
+            </div>
+    </div>
+        <div class="menu" id="menu">
+            <img src="../img/Cello-Pattern-Cut (1).png" alt="cello">
+            <img src="../img/Cello-Pattern-Cut-Flip (1).png" alt="cello">
+            <div class="menu_head">
+                
+                    <div></div>
+                    <p>Menu</p>
+                    <div></div>
+
+            </div>
+            <div class="content">
+                <div>
+                    <img src="../img/Veggie-pizza.jpg" alt="biryani">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">VEGETABLE PIZZA</p>
+                            <p class="description">Special pizza dough, with oregano seasoned marinara, topped with olives, seasonal vegetables, and mozzarella cheese.</p>
+                           
+                        </div>
+                        <div class="price">
+                        <div>
+                            <p>Price :</p>
+                            <p class="prix"> AED 59 </p>
+                        </div>
+                        <button class="btn_menu">Explore More ></button>
+                        </div>
+                    </div>
+                 
+                   
+                </div>
+                <div>
+                    <img src="../img/French-Chk.jpg" alt="french">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">FRENCH CHICKEN ROLLS</p>
+                    <p class="description">Crispy fried pastries stuffed with a mixture of seasoned vegetables and chicken.</p>
+                        </div>
+                    <div class="price">
+                        <div>
+                            
+                            <p>Price :</p>
+                            <p class="prix">AED 39</p>
+                        </div>
+                    <button class="btn_menu">Explore More ></button>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="../img/Sharhat-Ajeen.jpg" alt="shrarhat">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">SHARHAT AL AJEEN</p>
+                            <p class="description">Delicate and crispy double layered dough, topped with specialy seasoned tender lamb steaks.</p>        
+                        </div>
+                        <div class="price">
+                            <div>
+                            <p>Price :</p>
+                            <p class="prix">AED 79</p>
+                            </div>
+                            <button class="btn_menu">Explore More ></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="../img/Shawerma-Chk.jpg" alt="shawerma">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">CHICKEN SHAWARMA</p>
+                        <p class="description">Grilled and marinated strips of chicken, specially seasoned, wrapped in traditional saj bread with pickles and garlic sauce, served with french fries.</p>
+                        
+                        </div>
+                        <div class="price">
+                            <div>
+                                <p>Price :</p>
+                                <p class="prix">AED 45</p>
+                            
+                            </div>
+                            <button class="btn_menu">Explore More ></button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div>
+                    <img src="../img/Salad-Cello.jpg" alt="salad">
+                    <div class="description_menu">
+                        <div>
+                         <p class="title_menu">CELLO SALAD</p>
+                         <p class="description">A savory blend of smoked salmon, lettuce, avocado, onions, cherry tomatoes, topped with croutons, and honey mustard.</p>
+                        
+                        </div>
+                        <div class="price">
+                            <div>
+                                <p>Price :</p>
+                                <p class="prix">AED 79</p>
+                            </div>
+                        <button class="btn_menu">Explore More ></button>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="../img/Kababna.jpg" alt="kababna">
+                    <div class="description_menu">
+                           <div>
+                                <p class="title_menu">KABABNA</p>
+                                <p class="description">A uniquely presented special platter of six different kebab skewers served with grilled vegetables and french fries.</p>
+                           </div>
+                        <div class="price">
+                            <div>
+                                <p>Price :</p>
+                                <p class="prix">AED 159</p>
+            
+                            </div>
+                                <button class="btn_menu">Explore More ></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../img/Biryani-Chk.jpg " alt="pizza">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">BIRYANI CHICKEN</p>
+                        <p class="description">Basmati rice, served with delicious pottery cooked chicken, seasoned with special spices.</p>
+                        
+                        </div>
+                        <div class="price">
+                            <div >
+                                <p>Price :</p>
+                                <p class="prix">AED 78</p>
+                            </div>
+                        <button class="btn_menu">Explore More ></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../img/Yalanji.jpg" alt="Yalanji">
+                    <div class="description_menu">
+                        <div>
+                            <p class="title_menu">YALANJI</p>
+                            <p class="description">Fresh vine leaves stuffed with rice and vegetables, prepared in olive oil, and seasoned with special spices.</p>
+         
+                        </div>
+                        <div class="price">
+                            <div>
+                                <p>Price :</p>
+                                <p class="prix">AED 33</p>
+                            </div>
+                            <button class="btn_menu">Explore More ></button>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </div>
+        <div class="about2">
+            <img src="../img/Cello-Pattern-Cut (1).png" alt="1">
+            <img src="../img/Cello-Pattern-Cut-Flip (1).png" alt="1">
+            <div>
+                <div>
+                    <div></div>
+                    <p>Cello Restaurant</p>
+                    <div></div>
+                </div>
+                <p>Cello Restaurant is where the middle-eastern heritage of food, fine dining, and hospitality are well presented. Being located in a prominent area, famous for its touristy, and lively surroundings, in the bustling highway of Sheikh Zayed Road, where modern Dubai with its spectacular style, and breathtaking attractions offers great variety, Cello restaurant sites in this cosmopolitan territory, holding an enormous advantage towards the competition. A special place for all food lovers out there. Cello restaurant is truly one of the finest middle eastern restaurant in Dubai. Every time you walk into Cello Restaurant, you will obtain a remarkable experience, and you will always find something new to love, whether from our menu or from what your eyes might catch. Each and every comforting smile from our staff, with the music playing, will always make you feel relaxed. Through several halls and seating setups, We provide different experiences within one whole. The result can be a new customer experience with each visit.</p>
+            </div>
+            <img src="../img/DSC_1148_1-e1655137325258 (1).jpg" alt="img">
+        </div>
+        <div class="about2 "id="haja">
+            <img src="../img/Cello-Pattern-Cut (1).png" alt="1">
+            <img src="../img/Cello-Pattern-Cut-Flip (1).png" alt="1">
+            <div>
+                <div>
+                    <div></div>
+                    <p>Live Music</p>
+                    <div></div>
+                </div>
+                <p id="location">
+                    Pleasant evenings with live music starring two soulful bands, singing beautifully and playing heartfelt melodies amidst C’s joyful vibes.
+                    
+                    </p>
+            </div>
+            <div class="img_about">
+                <img src="../img/Cello-full.png" alt="1">
+
+            </div>
+            <div>
+                <div>
+                    <div ></div>
+                    <p>Authentic Middle-Eastern</p>
+                    <div ></div>
+                </div>
+                <p >Cello established its good reputation over 7 years of hard work focused on serving the customers and ensuring their satisfaction, The online reviews on social media platforms, google maps, and TripAdvisor are extremely positive, standing witness to Cello’s amazing food and hospitality.</p>
+            </div>
+        </div>
+        <div class="location" >
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.2594152909796!2d55.2831753108158!3d25.228186077597943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42ef258f2159%3A0xfa956a7a54136f4d!2sCello%20Restaurant%20%26%20Cafe!5e0!3m2!1sfr!2sma!4v1717425836679!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+                    
+        </div>
+        
+    <footer>
+        <div class="footer_right">
+            <img src="../img/Cello-Logo-Circle-300x300_1.png" alt="logo">
+            <p>Where Culinary Traditions And
+                Modern Flavors Unite</p>
+            <div><button><a href="https://www.instagram.com/cello.restaurant.dubai/" target="_blank"><i class='bx bxl-instagram' ></i></a></button>
+                <button><a href="https://www.facebook.com/c.restaurant.dxb" target="_blank"><i class='bx bxl-facebook' ></i></a></button>
+                <button><a href="https://www.tiktok.com/@c.restaurant" target="_blank"><i class='bx bxl-trip-advisor' ></i></a></button>
+                <button><a href="https://www.tripadvisor.com/Restaurant_Review-g295424-d13165209-Reviews-Cello_Restaurant-Dubai_Emirate_of_Dubai.html" target="_blank"><i class='bx bxl-tiktok'></i></a></button></div>
+        </div>
+        <div class="footer_seconde">
+            <ul>
+                <li><h6>usefull links</h6></li>
+                <li class="footer_links"><a href="#home">home</a></li>
+                <li class="footer_links"><a href="#about_us">about us</a></li>
+                <li class="footer_links"><a href="#gallery"> gallery</a></li>
+                <li class="footer_links"><a href="#menu">Menu</a></li>
+            </ul>
+        </div>
+        <div class="footer_third">
+            <ul>
+                <li><h6>Social media</h6></li>
+                <li class="footer_links"><a href="https://www.instagram.com/cello.restaurant.dubai/" target="_blank">Instagram</a></li>
+                <li class="footer_links"><a href="https://www.facebook.com/c.restaurant.dxb" target="_blank">Facebook</a></li>
+                <li class="footer_links"><a href="https://www.tiktok.com/@c.restaurant" target="_blank">TikTok</a></li>
+                <li class="footer_links"><a href="https://www.tripadvisor.com/Restaurant_Review-g295424-d13165209-Reviews-Cello_Restaurant-Dubai_Emirate_of_Dubai.html" target="_blank">Tripadvisor</a></li>
+            </ul>
+        </div>
+        <div class="contact_container">
+                    
+            
+        
+        <div class="contact">
+            <div class="phone">
+                
+            <i class='bx bxs-phone-call'></i>
+            <p>+971 56 11 777 90
+            </p>
+            
+            </div>
+            <div class="mail">
+                <i class='bx bx-envelope' ></i>
+                <p>info@cello-restaurant.com</p>
+            </div>
+            <div class="time">
+                <i class='bx bx-time-five' ></i>
+                <p>Monday to Sunday: 12:00 AM to 11:59 PM</p>
+                </p>
+            </div>
+            <div class="map">
+                <i class='bx bx-map' ></i>
+                <p><span class="p">Sheikh Zayed Road</span> Sama Tower 1171, <span class="p">Dubai</span> United Arab Emirates
+                </p>
+            </div>
+            
+        </div>
+        
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2024 <span class="p">Cello Restaurant</span>. Made with love by <span class="p">Saad Faiz</span>.</p>
+    </div>
+</body>
+</html>
